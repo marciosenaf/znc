@@ -5,7 +5,7 @@ const CONFIG = {
   // Ícones das redes no topo (deixe "#" se ainda não tiver o link)
   social: [
     { name: "YouTube", icon: "fa-brands fa-youtube", href: "https://www.youtube.com/@znctec" },
-    { name: "TikTok", icon: "fa-brands fa-tiktok", href: "https://www.tiktok.com/@zncmeme" },
+   /* { name: "TikTok", icon: "fa-brands fa-tiktok", href: "https://www.tiktok.com/@zncmeme" },*/
     { name: "Instagram", icon: "fa-brands fa-instagram", href: "https://www.instagram.com/znctec/" },
     { name: "Facebook", icon: "fa-brands fa-facebook", href: "https://www.facebook.com/znctec" },
     { name: "Discord", icon: "fa-brands fa-discord", href: "https://discord.gg/7TCxx7jRBw" },
@@ -14,8 +14,8 @@ const CONFIG = {
     {
       title: "Canais de Promoções",
       links: [
-        { label: "Promoções Tech", icon: "fa-brands fa-whatsapp", href: "https://whatsapp.com/channel/0029VbDiYMu6WaKgf9chgE3T", handle: "WhatsApp" },
-        { label: "Promoções Tech", icon: "fa-brands fa-telegram", href: "https://t.me/zncpromos", handle: "Telegram" }
+        { label: "ZNC Ofertas", icon: "fa-brands fa-whatsapp", href: "https://whatsapp.com/channel/0029VbDiYMu6WaKgf9chgE3T", handle: "WhatsApp" },
+        { label: "ZNC Ofertas", icon: "fa-brands fa-telegram", href: "https://t.me/zncpromos", handle: "Telegram" }
       ]
     },
   /*   {
