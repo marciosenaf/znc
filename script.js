@@ -222,3 +222,5 @@ function init() {
 }
 
 init();
+
+//     <span>© <span id="year"></span> Zona Não Controlada</span>
