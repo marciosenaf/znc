@@ -215,10 +215,10 @@ function setupShare() {
 function init() {
   renderSocial();
   renderSections();
-  renderAccordion();
+  if (CONFIG.accordion) renderAccordion();
   setupLogoFallback();
   setupShare();
-  yearEl.textContent = new Date().getFullYear();
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
 }
 
 init();
